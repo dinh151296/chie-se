@@ -1,0 +1,47 @@
+/* ========home page style======== */
+.home-hero {
+    background-image: url(../images/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.hero__content {
+    padding: 28% 0% 32% 0%;
+    position: relative;
+}
+
+.hero__content .down {
+    position: absolute;
+    bottom: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 90px;
+    background-color: var(--cl-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hero__content .down svg {
+    stroke: #fff;
+}
+
+.hero__content h1 {
+    font-size: 20px;
+    color: var(--cl-blue);
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.hero__content h1 span {
+    display: block;
+    color: #181818;
+    text-transform: initial;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 80px;
+}

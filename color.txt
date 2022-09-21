@@ -1,0 +1,2 @@
+orange: #f4b446
+blue: #49c7ef
