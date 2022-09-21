@@ -8,7 +8,7 @@
 }
 
 .hero__content {
-    padding: 28% 0% 32% 0%;
+    padding: 26% 0% 30% 0%;
     position: relative;
 }
 
@@ -44,4 +44,23 @@
     font-weight: bold;
     margin-top: 40px;
     font-size: 80px;
+}
+
+.about__content-inner {
+    margin-top: 55px;
+    padding-right: 20%;
+}
+
+.about__content-inner h4 {
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+
+.about__content-inner  p {
+    font-size: 16px;
+    color: var(--cl-text02);
+}
+
+.about__img {
+    padding-left: 25px;
 }

@@ -10,6 +10,8 @@
 :root {
     --cl-orange:#f4b446;
     --cl-blue: #49c7ef;
+    --cl-text01: #181818;
+    --cl-text02: #737373;
 }
 
 body {
@@ -63,9 +65,31 @@ h1, h2, h3, h4, h5, h6, p {
 
 .container {
     /* custum */
-    max-width: 1200px;
+    max-width: 1210px;
     padding: 0 20px;
     margin: 0 auto;
+}
+
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+div [class*='col-']{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cl-blue {
+    color: var(--cl-blue);
+}
+
+.cl-orange {
+    color: var(--cl-orange);
+}
+
+.text-bold {
+    font-weight: 700;
 }
 
 @media (max-width: 1023px) {
@@ -152,4 +176,35 @@ header {
     background-color: #fff;
     bottom: 0px;
     right: 0px;
+}
+
+section.section {
+    padding-top: 120px;
+}
+
+.wrap-section__title {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.wrap-section__title span {
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 38px;
+}
+
+.layout--line {
+    position: relative;
+    padding-left: 100px;
+}
+
+.layout--line::after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 3px;
+    left: 0px;
+    top: 14px;
+    background-color: var(--cl-orange);
 }
